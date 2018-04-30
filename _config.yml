@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: ""
 url: "https://manwithbear.github.io"
 title: ManWithBear
 description: "Developer notes around iOS / Swift / Programming"
