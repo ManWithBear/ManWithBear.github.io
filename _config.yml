@@ -89,6 +89,9 @@ collections:
     permalink: /:collection/:name
 
 
+# EXCERPT
+excerpt_separator: <!--more-->
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge

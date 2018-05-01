@@ -2,7 +2,7 @@
 layout: post
 title:  "XCTest import in own testing framework"
 date:   2018-04-20 11:41:01 +0200
-categories: jekyll update
+tags: ["testing", "XCTest"]
 ---
 ### Problem
 If you would like to create framework, which will be used only in unit tests. At one moment you will need to import `XCTest`.
@@ -10,6 +10,7 @@ But Xcode will give you awesome error:
 ```
 "Cannot load underlying module for XCTest"
 ```
+<!--more-->
 ### Reason
 As I understand, Xcode doesn't know that your framework will be imported only in test target, so it can't find `XCTest` framework
 in "normal" framework location.

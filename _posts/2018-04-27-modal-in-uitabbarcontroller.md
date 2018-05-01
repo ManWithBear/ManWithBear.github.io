@@ -2,7 +2,7 @@
 layout: post
 title:  "Modal screen inside UITabBarController"
 date:   2018-04-27 01:34:53 +0200
-categories: jekyll update
+tags: ["modal", "uitabbarcontroller"]
 ---
 Let's say you want to present `SearchViewController` modally over current controller, which is inside of `UITabBarController`.
 ```swift
@@ -12,6 +12,7 @@ func showSearch() {
 ```
 Do what it should. But presented controller will overlap `UITabBar`, so you can't switch between tabs at this point. 
 To resolve this issue:
+<!--more-->
 ```swift
 func showSearch() {
     // uncomment this one if your controller not wrapped in UINavigationController
