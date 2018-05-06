@@ -47,7 +47,7 @@ theme_settings:
 
   # Scripts / Features 
   google_analytics: "UA-57922403-2"
-  disqus_shortname:
+  disqus_shortname: "manwithbear"
   katex: true # Enable if using math markup
   
   special_page:

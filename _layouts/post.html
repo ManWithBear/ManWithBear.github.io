@@ -17,6 +17,11 @@ layout: default
     
 </article>
 
+<!-- Post navigation -->
+{% if site.theme_settings.post_navigation %}
+  {% include post_nav.html %}
+{% endif %}
+
 <!-- Disqus -->
 {% if site.theme_settings.disqus_shortname %}
 <div class="comments">
@@ -24,7 +29,3 @@ layout: default
 </div>
 {% endif %}
 
-<!-- Post navigation -->
-{% if site.theme_settings.post_navigation %}
-  {% include post_nav.html %}
-{% endif %}
