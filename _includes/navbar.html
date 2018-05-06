@@ -19,6 +19,12 @@
     
     <!-- Menu -->
     <ul>
+        <li class="separator"> | </li>
+        <li>
+            <a class="clear" href="/blog/">
+                Blog
+            </a>
+        </li>
         <!-- Auto Generation of NORMAL pages in the navbar -->
         {% for page in site.pages %}
         {% if page.title and page.hide != true %}
