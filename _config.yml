@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://manwithbear.github.io"
+url: "https://manwithbear.com"
 title: ManWithBear
 description: "Developer notes around iOS / Swift / Programming"
 
@@ -22,7 +22,7 @@ theme_settings:
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: "itsmanwithbear@gmail.com"
+  email_address: "hello@manwithbear.com"
   behance:
   bitbucket:
   dribbble:
@@ -33,11 +33,11 @@ theme_settings:
   google_plus:
   instagram:
   keybase:
-  linkedin:  # Full URL
+  linkedin: "https://www.linkedin.com/in/manwithbear/" # Full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange: "https://stackoverflow.com/users/4280337/manwithbear" # Full URL
   steam:
   tumblr:
   twitter: # "twitter username"
@@ -45,19 +45,19 @@ theme_settings:
   wordpress:
   youtube:
 
-  # Scripts / Features 
+  # Scripts / Features
   google_analytics: "UA-57922403-2"
   disqus_shortname: "manwithbear"
   katex: true # Enable if using math markup
-  
+
   special_page:
-    search: 
+    search:
       icon: "search"
       enabled: true
     tags:
       icon: "tags"
       enabled: true
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -75,8 +75,8 @@ theme_settings:
 
   # Post navigation
   post_navigation: true
-  
-  
+
+
 # PAGINATION
 paginate: 10
 paginate_path: "/blog/page:num"
