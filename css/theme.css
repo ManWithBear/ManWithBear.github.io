@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    color: #000;
+    font-family: Helvetica, Arial;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer {
+    color: #8a8a8a;
+    flex-flow: row wrap;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+body .wrapper {
+    flex: 1;
+}
+
+header .wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .site-name {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+    float: left;
+}
+
+nav {
+    display: inline;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 1.5em;
+}
+
+.introduction {
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.content p,
+.content ol {
+    margin: 0.8em 0;
+}
+
+a {
+    color: inherit;
+}
+
+.tag-list {
+    margin-bottom: 15px;
+}
+
+.tag-list li,
+.tag {
+    display: inline-block;
+    background-color: #000;
+    color: #ddd;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tag-list a,
+.tag a {
+    text-decoration: none;
+}
+
+.item-page .tag-list {
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+.article-list,
+.article-list ul {
+    list-style-type: none;
+}
+
+.article-list li {
+    margin: 0.8em 0;
+}
+
+.article-date {
+    color: #999;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+    }
+
+    body,
+    header .site-name {
+        color: #ddd;
+    }
+
+    .item-list > li {
+        background-color: #333;
+    }
+    
+    .article-date {
+        color: #666;
+    }
+}
+
+@media(max-width: 600px) {
+    .wrapper {
+        padding: 40px 20px;
+    }
+}
