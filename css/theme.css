@@ -116,6 +116,11 @@ a {
     margin-bottom: 40px;
 }
 
+.content img {
+    width: 100%;
+    object-fit: contain;
+}
+
 .all-tags li {
     font-size: 1.4em;
     margin-right: 10px;
